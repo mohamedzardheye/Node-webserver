@@ -48,6 +48,13 @@ app.get ('/about',(req, res) => {
   });
 });
 
+app.get('/project',(req, res) => {
+    res.render('projects.hbs'),{
+      pageTitle: 'Projects page',
+      pageBody: 'Welcome to profolio page'
+    }
+})
+
 app.get('/bad', (req, res) => {
   res.send({
     name: 'mohamed',
