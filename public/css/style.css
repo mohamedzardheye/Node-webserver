@@ -1,0 +1,181 @@
+/* YOUR CUSTOM STYLES */
+body {
+font-family: 'Oswald', serif;
+}
+a{
+  color:black;
+}
+
+h2{
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bolder;
+  color:red;
+
+
+}
+.card {
+  margin-top: 5%;
+}
+#left-content{
+  width:70%;
+  float: left;
+  background: white;
+  padding: 1% ;
+}
+
+#right-content{
+  width:29%;
+  float: left;
+  background: yellow;
+  padding:  1%;
+  margin-left: 1%;
+}
+
+
+.top-title{
+  padding:1%;
+  text-align: left;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Francois One;
+  font-weight: 500;
+    margin-top: -17 %;
+    background-color:rgba(0, 0, 0, 0.6);
+
+
+}
+
+.top-title a{
+ color:white;
+}
+
+.top-category{
+  color:white;
+  font-size: 13px;
+  margin: 1% 0 0 2%;
+}
+
+.top-category a{
+  color:white;
+}
+
+
+.top-user{
+  font-family:sans-serif;;
+  color:white;
+  font-size: 13px;
+  margin: 1% 0 0 0%;
+  background: #274A7B;
+  padding:1% 0 1% 2%;
+}
+
+.top-user a{
+  color:white;
+}
+
+.card-more{
+  margin-top: 3%;
+
+}
+.more-top-image{
+  width:40%;
+  border-radius:10%;
+  float: left;
+  padding:1%;
+}
+
+.more-top-title{
+  width: 60%;
+  float: left;
+}
+
+.more-top-title a{
+  float: left;
+  font-size: 12px;
+  padding: 1%;
+
+}
+
+.more-top-category{
+  width:100%;
+  float: left;
+  font-family:cursive;
+  color:#2D3B4F;
+  font-size: 12px;
+  margin: 0% 0% 0% 2%;
+}
+
+.more-top-user{
+  width:100% ;
+  float:left;
+  font-family:sans-serif;;
+  color:white;
+  font-size: 13px;
+  margin: 1% 0 0 0%;
+  background: #274A7B;
+  padding:1% 2% 1% 2%;
+  margin-bottom: 6%;
+}
+
+.more-top-user a{
+  width: 100%;
+  color:white;
+  text-align: center;
+}
+.article-title{
+  padding:2% 0 1% 2%;
+  text-align: left;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: Francois One;
+  font-weight: 100;
+}
+
+.article-title a{
+  color:black;
+}
+
+.article-title a:hover{
+  text-decoration: overline;
+}
+
+.article-category{
+  font-family:sans-serif;;
+  color:#2D3B4F;
+  font-size: 13px;
+  margin: 1% 0 0 2%;
+
+}
+
+.article-user{
+  font-family:sans-serif;;
+  color:white;
+  font-size: 13px;
+  margin: 1% 0 0 0%;
+  background: #274A7B;
+  padding:1% 0 1% 2%;
+}
+
+.article-user a{
+  color:white;
+}
+
+@media (max-width: 858px) {
+  #left-content{
+    width:100%;
+    float: left;
+    background: white;
+  }
+
+  #right-content{
+    width:100%;
+    float: left;
+    background: yellow;
+    padding:  1%;
+
+  }
+
+
+
+ }
